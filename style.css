@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto&display=swap');
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background-image: linear-gradient(to bottom right, #ed6758, #5838ff);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;	
+}
+
+
+header {
+	margin: 15px 30px;
+}
+
+header h1 {
+	color: white;
+	font-family: 'Patrick Hand', cursive;
+	letter-spacing: 2.5px;
+	font-size: 2.25em;
+}
+
+header h1 a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+.container {
+	margin-top: 15px;
+	width: 400px;
+	height: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #302c2b;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	padding: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	font-family: 'Roboto', sans-serif;
+}
+
+.row {
+	width: 100%;
+	margin: 5px 0;
+	display: inherit;
+}
+
+.size-1 {
+	width: 25%;
+}
+
+.size-4 {
+	width: 100%;
+	height: 100%;
+	border: 1px solid #302c2b;
+}
+
+.col {
+	margin: 0 5px;
+	border: 3px solid white;
+}
+
+.size-4 input[type="text"] {
+	width: 100%;
+	height: 100%;
+	font-family: inherit;
+	font-size: 3em;
+	border: none;
+	padding: 0 10px;
+	text-align: right;
+	background-color: white;
+}
+
+.size-1 button {
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	color: white;
+	font-family: inherit;
+	font-size: 1.25em;
+	border: none;
+}
+
+.size-1 button:hover {
+	color: #d68400;
+	transition: color 300ms ease-in-out;
+}

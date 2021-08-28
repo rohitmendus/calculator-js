@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header>
+	<h1><a href="index.html">Calculate.io<a></h1>
+</header>
+<div class="container">
+	<div class="row">
+		<div class="col size-4">
+			<input type="text" id="text_field" value="0" disabled>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col size-1">
+			<button onclick="calculator.enterNum(1)">1</button>
+		</div>
+		<div class="col size-1">
+			<button onclick="calculator.enterNum(2)">2</button>
+		</div>
+		<div class="col size-1">
+			<button onclick="calculator.enterNum(3)">3</button>
+		</div>
+		<div class="col size-1">
+			<button onclick = "calculator.enterOperation('add')">+</button>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col size-1">
+			<button onclick="calculator.enterNum(4)">4</button>
+		</div>
+		<div class="col size-1">
+			<button onclick="calculator.enterNum(5)">5</button>
+		</div>
+		<div class="col size-1">
+			<button onclick="calculator.enterNum(6)">6</button>
+		</div>
+		<div class="col size-1">
+			<button onclick = "calculator.enterOperation('sub')">-</button>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col size-1">
+			<button onclick="calculator.enterNum(7)">7</button>
+		</div>
+		<div class="col size-1">
+			<button onclick="calculator.enterNum(8)">8</button>
+		</div>
+		<div class="col size-1">
+			<button onclick="calculator.enterNum(9)">9</button>
+		</div>
+		<div class="col size-1">
+			<button onclick = "calculator.enterOperation('mult')">&times;</button>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col size-1">
+			<button onclick="calculator.clear()">Clear</button>
+		</div>
+		<div class="col size-1">
+			<button onclick="calculator.enterNum(0)">0</button>
+		</div>
+		<div class="col size-1">
+			<button onclick="calculator.findAns()">=</button>
+		</div>
+		<div class="col size-1">
+			<button onclick = "calculator.enterOperation('div')">&divide;</button>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
